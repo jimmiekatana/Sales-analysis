@@ -16,32 +16,32 @@ The data might have missing or incorrect values. You'll need to inspect the data
 
 
 3. Feature Engineering:
-   After cleaning the data, you can create new columns (features) to make your analysis easier. Examples include:
+     After cleaning the data, you can create new columns (features) to make your analysis easier. Examples include:
 
-  Month/Year: Extract the month and year from the date for time-based analysis.
+    Month/Year: Extract the month and year from the date for time-based analysis.
 
-  Sales: If not already available, you can calculate the total sales for each row by multiplying the quantity sold by the price per item.
+    Sales: If not already available, you can calculate the total sales for each row by multiplying the quantity sold by the price per item.
 
-  City: If needed, extract the city from the address or other location-based columns.
+    City: If needed, extract the city from the address or other location-based columns.
 
 
 4. Exploratory Data Analysis (EDA):
-Now that the data is clean and ready, you can start exploring trends and patterns:
+   Now that the data is clean and ready, you can start exploring trends and patterns:
 
-Sales trends: Analyze how sales fluctuate over time (by month, quarter, or year). This can help identify seasonal trends.
+   Sales trends: Analyze how sales fluctuate over time (by month, quarter, or year). This can help identify seasonal trends.
+ 
+   Best-selling products: Determine which products are generating the most revenue.
 
-Best-selling products: Determine which products are generating the most revenue.
+   Sales by region: Break down sales data by city or state to see which regions are performing best.
 
-Sales by region: Break down sales data by city or state to see which regions are performing best.
-
-Correlations: Check if there are any relationships between different variables, such as sales volume and price.
+   Correlations: Check if there are any relationships between different variables, such as sales volume and price.
 
 
 5. Visualization:
-Visualization is key to understanding data patterns. You can create:
+   Visualization is key to understanding data patterns. You can create:
 
-Line charts for sales trends over time.
+   Line charts for sales trends over time.
 
-Bar charts for comparing sales by product, region, or category.
+   Bar charts for comparing sales by product, region, or category.
 
-Heatmaps for visualizing correlations between different variables.
+   Heatmaps for visualizing correlations between different variables.
