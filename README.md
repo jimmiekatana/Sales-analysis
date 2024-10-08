@@ -7,21 +7,22 @@ You will need to access multiple CSV files representing monthly sales data. The 
 2. Data Cleaning:
 The data might have missing or incorrect values. You'll need to inspect the dataset for issues like:
 
-Missing values: These need to be identified and either filled in or removed.
+   Missing values: These need to be identified and either filled in or removed.
 
-Data formatting: Columns like dates, prices, or product IDs might need to be standardized. For example, dates should be converted into a proper datetime format for analysis over time.
+   Data formatting: Columns like dates, prices, or product IDs might need to be standardized. For example, dates should be converted into a proper datetime format for      
+   analysis over time.
 
-Duplicate entries: Sometimes datasets contain duplicated rows that need to be removed to ensure accurate analysis.
+  Duplicate entries: Sometimes datasets contain duplicated rows that need to be removed to ensure accurate analysis.
 
 
 3. Feature Engineering:
-After cleaning the data, you can create new columns (features) to make your analysis easier. Examples include:
+   After cleaning the data, you can create new columns (features) to make your analysis easier. Examples include:
 
-Month/Year: Extract the month and year from the date for time-based analysis.
+  Month/Year: Extract the month and year from the date for time-based analysis.
 
-Sales: If not already available, you can calculate the total sales for each row by multiplying the quantity sold by the price per item.
+  Sales: If not already available, you can calculate the total sales for each row by multiplying the quantity sold by the price per item.
 
-City: If needed, extract the city from the address or other location-based columns.
+  City: If needed, extract the city from the address or other location-based columns.
 
 
 4. Exploratory Data Analysis (EDA):
